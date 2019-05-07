@@ -1,0 +1,2 @@
+[webservers]
+IP.xx.xx.xx ansible_ssh_extra_args='-o StrictHostKeyChecking=no' ansible_ssh_user=SSH_USER ansible_ssh_private_key_file="PATH_TO_YOUT_PRIV_KEY"
