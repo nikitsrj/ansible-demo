@@ -5,7 +5,7 @@
   remote_user: root
   tasks: 
       - name: Updating System
-        apt: name=* state=latest
+        apt: name=nginx state=latest
         #      - name: Install EPEL-repo
         #yum: name=epel-release state=latest
         #- name: Install nginx
